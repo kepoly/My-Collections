@@ -1,0 +1,68 @@
+body {
+    background: #eee;
+}
+
+/* User and Main Navbars */
+
+#userNavBar, .mainNav, .mediaNav {
+    border-radius: 0;
+    border: 0;
+}
+
+#userNavBar {
+    background: #333;
+}
+
+.mainNav {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.mediaNav {
+    background: black;
+}
+
+/* ##### END ##### */
+
+
+/* Search Page */
+.search_results {
+    clear: both;
+}
+
+.search_related {
+    list-style: none;
+    background: #333;
+    border-radius: 0 0 10px 10px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.search_related li {
+    margin: 0;
+    padding: 5px 10px;
+    color: red;
+}
+
+.search_related li a {
+color: white;
+}
+
+#search_found_results {
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+}
+
+#search_found_results_title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#search_found_results_title a {
+    color: dodgerblue;
+}
+
+.search_title_h1 {
+    text-align: center;
+
+}
